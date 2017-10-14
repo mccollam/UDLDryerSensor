@@ -20,3 +20,9 @@ The sensor is built from the following:
 * 4x4 matrix keypad, exposed via I2C
 
 ![Internals of the unit](img/guts.jpg)
+
+Some sketches for cases are available in the `cases` directory in
+[OpenSCAD](http://www.openscad.org/) format.  The 3D cases can be used for
+3D printing, while the 2D cases can be laser cut from thin pieces of wood
+or similar.  (You may need to modify the cases a bit depending on the sizes
+of the components used.)
