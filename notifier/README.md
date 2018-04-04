@@ -1,4 +1,4 @@
-#Notification daemon for dryer sensor
+# Notification daemon for dryer sensor
 
 This should be run on a server somewhere in the same network as the dryer
 sensor.  It will listen for MQTT messages and notify people as appropriate.
@@ -15,7 +15,7 @@ in this file.
 To use, configure the Twilio information and/or the SNS URL at the top of
 the file and run!
 
-##Caveats:
+## Caveats:
 
 Sending an SMS notification to a user not defined in the list of phone
 numbers will cause a traceback.  This could easily be caught but I am
