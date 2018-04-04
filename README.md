@@ -26,3 +26,9 @@ Some sketches for cases are available in the `cases` directory in
 3D printing, while the 2D cases can be laser cut from thin pieces of wood
 or similar.  (You may need to modify the cases a bit depending on the sizes
 of the components used.)
+
+Notifications are provided by a daemon (under "notifier") that listens for
+MQTT messages and sends the relevant information to an external notification
+system.  Currently [Twilio](https://www.twilio.com) and
+[Amazon SNS](https://aws.amazon.com/sns/) are supported but this could easily
+be extended to others.
